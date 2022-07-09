@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Module version="101020002" xmlns="http://xmlns.oracle.com/Forms">
+   <FormModule Name="COLORS" ConsoleWindow="WINDOW1" DirtyInfo="true" MenuModule="DEFAULT&amp;SMARTBAR" Title="MODULE1">
+      <Coordinate CharacterCellWidth="7" CoordinateSystem="Real" CharacterCellHeight="14" RealUnit="Point" DefaultFontScaling="true"/>
+      <Block Name="COLORS" ScrollbarTabPageName="" DirtyInfo="true" QueryDataSourceName="COLORS" ScrollbarWidth="14" ScrollbarYPosition="39" ShowScrollbar="true" ScrollbarCanvasName="CANVAS4" ScrollbarLength="42" RecordsDisplayCount="3" ScrollbarXPosition="628">
+         <Item Name="ID" DirtyInfo="true" Height="14" PromptAlign="Center" XPosition="14" Width="270" ColumnName="ID" DataType="Number" YPosition="39" PromptDisplayStyle="First Record" ItemsDisplay="0" MaximumLength="39" PromptAttachmentEdge="Top" ItemType="Text Item" TabPageName="" CanvasName="CANVAS4" Prompt="Id"/>
+         <Item Name="NAME" DirtyInfo="true" Height="14" PromptAlign="Center" XPosition="284" Width="344" ColumnName="NAME" YPosition="39" DataLengthSemantics="BYTE" PromptDisplayStyle="First Record" ItemsDisplay="0" MaximumLength="50" PromptAttachmentEdge="Top" ItemType="Text Item" TabPageName="" CanvasName="CANVAS4" Prompt="Name"/>
+         <DataSourceColumn Type="Query" DSCType="NUMBER" DSCNochildren="false" DSCLength="0" DSCPrecision="38" DSCName="ID" DSCScale="0" DSCMandatory="false"/>
+         <DataSourceColumn Type="Query" DSCType="VARCHAR2" DSCNochildren="false" DSCLength="50" DSCPrecision="0" DSCName="NAME" DSCScale="0" DSCMandatory="false"/>
+      </Block>
+      <Canvas Name="CANVAS4" ViewportHeight="324" DirtyInfo="true" Height="324" WindowName="WINDOW1" Width="656" ViewportWidth="540" CanvasType="Content">
+         <Graphics Name="FRAME5" GraphicsText="" FrameTitleOffset="14" Height="80" VerticalMargin="14" GraphicsFontColor="" GraphicsFontSpacing="Ultradense" Width="642" GraphicsFontSize="0" GraphicsFontWeight="Ultralight" StartPromptOffset="7" FillPattern="none" GraphicsFontColorCode="0" HorizontalObjectOffset="0" EdgeBackColor="white" FrameTitle="COLORS" ShowScrollbar="true" RecordsDisplayCount="3" LayoutStyle="Tabular" DirtyInfo="true" XPosition="7" Bevel="Inset" GraphicsFontStyle="0" ScrollbarWidth="14" HorizontalMargin="7" FrameTitleSpacing="7" EdgePattern="solid" YPosition="15" GraphicsType="Frame" GraphicsFontName="" LayoutDataBlockName="COLORS"/>
+      </Canvas>
+      <Window Name="WINDOW1" Height="324" Width="540"/>
+   </FormModule>
+</Module>
